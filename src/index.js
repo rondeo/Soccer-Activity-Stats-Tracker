@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import SoccerDayCount  from './components/SoccerDayCount';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import { App } from './components/App'
+import { Whoops404 } from './components/Whoops404'
+import {BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom'
 
 window.React = React
 
-ReactDOM.render(
-    <SoccerDayCount total={50}
-                              grass={20}
-                              turf={12}
-                              goal={100}/>,
-document.getElementById('root'));
-registerServiceWorker();
+render(
+	<BrowserRouter history={HashRouter}>
+		<Switch>
+		<Route path="/" component={App}/>
+		<Route path="list-days" component={App}>
+			<Route path=":filter" component={App} />
+		</Route>
+		<Route path="add-day" component={App} />
+		<Route path="*" component={Whoops404}/>
+		</Switch>
+	</BrowserRouter>,
+	document.getElementById('react-container')
+)

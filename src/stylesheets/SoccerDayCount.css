@@ -1,0 +1,20 @@
+.soccer-day-count {
+    border: 2px solid black;
+    width: 50%;
+    margin: 20px auto;
+    background: black;
+}
+
+.total-days, .grass-days, .turf-days, .goal{
+    text-align: center;
+    margin: 20px;
+    color: skyblue;
+}
+
+span {
+    margin: 20px;
+}
+
+span .icon {
+    font-style: 3rem;
+}
