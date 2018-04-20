@@ -6,12 +6,12 @@ import { PropTypes } from 'prop-types'
 import '../stylesheets/SoccerDayCount.css'
 
 const percentToDecimal = (decimal) => {
-	return ((decimal * 100) + '%')
-}
+		return ((decimal * 100) + '%')
+	}
 
 const calcGoalProgress = (total, goal) => {
-	return percentToDecimal(total/goal)
-}
+		return percentToDecimal(total/goal)
+	}
 
 export const SoccerDayCount = ({total=70, grass=20,
 							turf=10, goal=100}) => (
@@ -40,11 +40,11 @@ export const SoccerDayCount = ({total=70, grass=20,
 				</span>
 			</div>
 		</div>
-)
+	)
 
 SoccerDayCount.propTypes = {
-  total: PropTypes.number,
-  grass: PropTypes.number,
-  turf: PropTypes.number,
-  goal: PropTypes.number
-}
+	  total: PropTypes.number,
+	  grass: PropTypes.number,
+	  turf: PropTypes.number,
+	  goal: PropTypes.number
+	}

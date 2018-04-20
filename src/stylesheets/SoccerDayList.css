@@ -1,25 +1,22 @@
+
 .soccer-day-list {
+        border: 2px solid black;
+        width: 50%;
+        margin: 20px auto;
+        background: black;
+        color: skyblue;
+        height: 250px;
+    }
 
-    border: 2px solid black;
-    width: 50%;
-    margin: 20px auto;
-    background: black;
-    color: skyblue;
-    height: 250px;
-
-}
-
-.link{
-
-        font-size: 1rem
-
-}
+.link {
+            font-size: 1rem
+    }
 
 th {
-    padding: 10px;
-    border-bottom: 1px solid white;
-}
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
 
 td {
-    padding: 5px;
-}
+        padding: 5px;
+    }
