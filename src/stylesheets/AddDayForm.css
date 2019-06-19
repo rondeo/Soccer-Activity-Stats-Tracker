@@ -6,13 +6,15 @@
         margin: 20px auto;
         background: black;
         color: skyblue;
-        height: 250px;
+        height: auto;
         text-align: left;
 }
 
 .label {
     margin: 10px;
     font-size: 2rem;
+    height: auto;
+    width: auto;
 }
 
 button {
@@ -21,3 +23,4 @@ button {
     font-weight: 500;
     text-align: center;
 }
+
