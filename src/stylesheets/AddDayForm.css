@@ -1,13 +1,13 @@
 .add-day-form {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid black;
-        width: 50%;
-        margin: 20px auto;
-        background: black;
-        color: skyblue;
-        height: auto;
-        text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 50%;
+    margin: 20px auto;
+    background: black;
+    color: skyblue;
+    height: auto;
+    text-align: left;
 }
 
 .label {
