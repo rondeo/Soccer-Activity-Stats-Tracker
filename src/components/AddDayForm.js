@@ -70,7 +70,6 @@ export const AddDayForm = ({ field, date, grass, turf, onNewDay }) => {
         id="date"
         type="date"
         required
-        ref="date"
         defaultValue={date}
         ref={input => (_date = input)}
       />
@@ -80,7 +79,6 @@ export const AddDayForm = ({ field, date, grass, turf, onNewDay }) => {
           id="grass"
           type="checkbox"
           defaultChecked={grass}
-          ref="grass"
           ref={input => (_grass = input)}
         />
         <label htmlFor="grass" className="label">
