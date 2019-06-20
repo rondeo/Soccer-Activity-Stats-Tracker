@@ -39,9 +39,8 @@ class Autocomplete extends Component {
   }
 }
 
-export const AddDayForm = ({ field, date, grass, turf, onNewDay }) => {
+export const AddDayForm = ({ date, grass, turf, onNewDay }) => {
   let _field, _date, _grass, _turf;
-
   const submit = e => {
     e.preventDefault();
     onNewDay({
